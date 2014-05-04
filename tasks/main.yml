@@ -1,0 +1,9 @@
+---
+- name: update apt caches and distributions.
+  apt:
+    update_cache=yes
+    cache_valid_time=86400
+    upgrade=dist
+  tags:
+    - apt
+    - packages
