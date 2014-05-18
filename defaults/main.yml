@@ -1,0 +1,2 @@
+---
+apt_cache_time_out: 86400 # 24hrs, provided as it may need to be overridden.
